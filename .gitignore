@@ -6,6 +6,12 @@
 /bazel-out
 
 # dependencies
+client/node_modules/
+client/build/
+client/out/
+server/build/
+server/public/
+server/coverage/
 /node_modules
 
 # profiling files
@@ -29,12 +35,7 @@ speed-measure-plugin*.json
 !.vscode/extensions.json
 .history/*
 
-client/node_modules/
-client/build/
-client/out/
-server/build/
-server/public/
-server/coverage/
+
 
 # misc
 /.sass-cache
@@ -49,3 +50,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+.gitignore
